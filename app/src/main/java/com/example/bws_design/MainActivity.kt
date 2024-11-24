@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        // Handle user isLoggedin or isLogSessionTimedOut
         Handler(Looper.getMainLooper()).postDelayed({
             val i = Intent(
                 this@MainActivity,
@@ -28,6 +29,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(i)
 
             finish()
-        }, 3000)
+        }, 500)
     }
 }

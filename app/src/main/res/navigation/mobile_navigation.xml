@@ -22,4 +22,5 @@
         android:name="com.example.bws_design.Dashboard.ui.profile.ProfileFragment"
         android:label="Profile"
         tools:layout="@layout/fragment_profile" />
+
 </navigation>
